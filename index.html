@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Technical Documentation Page</title>
+    </head>
+
+    <body>
+        
+        <nav id="navbar">
+          <header id="menu">Menu</header>
+          <ul> 
+            <a class="nav-link" href="#html" rel="internal"><li>HTML</li></a><hr>
+            <a class="nav-link" href="#css" rel="internal"><li>CSS</li></a><hr>
+            <a class="nav-link" href="#bootstrap" rel="internal"><li>BOOTSTRAP</li></a><hr>
+            <a class="nav-link" href="#javascript" rel="internal"><li>JAVASCRIPT</li></a><hr>
+            <a class="nav-link" href="#react" rel="internal"><li>REACT</li></a><hr>
+          </ul>
+        </nav>
+
+        <main id="main-doc">
+          <section class="main-section" id="html">
+            <header>HTML</header>
+            <article>  
+              <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.</p>
+              <p>HTML versions timeline:</p>
+              <li>HTML 2.0 - November 24, 1995</li>
+              <li>HTML 3.2 - January 14, 1997</li>
+              <li>HTML 4.0 - December 18, 1997</li>
+              <li>HTML5 - October 28, 2014</li>
+            </article>
+          </section><hr>
+          
+          <section class="main-section" id="css">
+            <header>CSS</header>
+            <article>  
+              <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+              <p>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.</p>
+              <p>Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.</p>
+              <p>The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.</p>
+              <p>The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.</p>
+              <code>
+                h1 {color: blue;}
+              </code><br>
+              <code>
+                p {font-size: 300%;} 
+              </code><br>
+              <code>
+                body {background-color: green;}
+              </code><br>
+            </article>
+          </section><hr>
+          
+          <section class="main-section" id="bootstrap">
+            <header>BOOTSTRAP</header>
+            <article>  
+              <p>Bootstrap is a free and open-source front-end framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many earlier web frameworks, it concerns itself with front-end development only.</p>
+              <p>Bootstrap 4</p>
+              <li>Switched from Less to Sass.</li>
+              <li>Launched reboot in place of normalize css.</li>
+              <li>Dropped IE8, IE9, and iOS 6 support.</li>
+              <li>Added flexbox support and then dropped non-flexbox support.</li>
+              <li>Added navigation customization options.</li>
+            </article>
+          </section><hr>
+          
+          <section class="main-section" id="javascript">
+            <header>JAVASCRIPT</header>
+            <article>  
+              <p>JavaScript, often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.</p>
+              <p>Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web. JavaScript enables interactive web pages and thus is an essential part of web applications. The vast majority of websites use it, and all major web browsers have a dedicated JavaScript engine to execute it.</p>
+              <p>As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative (including object-oriented and prototype-based) programming styles. It has an API for working with text, arrays, dates, regular expressions, and basic manipulation of the DOM, but the language itself does not include any I/O, such as networking, storage, or graphics facilities, relying for these upon the host environment in which it is embedded.</p>
+              <p>Initially only implemented client-side in web browsers, JavaScript engines are now embedded in many other types of host software, including server-side in web servers and databases, and in non-web programs such as word processors and PDF software, and in runtime environments that make JavaScript available for writing mobile and desktop applications, including desktop widgets.</p>
+              <p>Although there are strong outward similarities between JavaScript and Java, including language name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design; JavaScript was influenced by programming languages such as Self and Scheme.</p>
+              <code>
+                console.log("Hello World!");
+              </code><br>
+              <code>
+                function counter() {
+                  var count = 0;
+                  return function() {
+                    return ++count;
+                  };
+                }
+              </code>
+            </article>
+          </section><hr>
+          
+          <section class="main-section" id="react">
+            <header>REACT</header>
+            <article>  
+              <p>In computing, React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.</p>
+              <p>React can be used as a base in the development of single-page or mobile applications. Complex React applications usually require the use of additional libraries for state management, routing, and interaction with an API.</p>
+              <code class="color">
+                class App extends React.Component {
+                  render() {
+                  }
+                }
+              </code>
+            </article>
+          </section><hr>
+        </main>
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+        <!-- Test -->
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    </body>
+</html>

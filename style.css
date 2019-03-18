@@ -1,0 +1,53 @@
+#navbar {
+  position: fixed;
+  min-width: 300px;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  border-right: solid;
+}
+
+header {
+  margin-top: 2%;
+  font-size: 2em;
+}
+
+p, li{
+  font-size: 1.3em;
+}
+
+#menu {
+  text-align: center;
+  margin: 20px;
+}
+
+#navbar a {
+  display: flex;
+  color: black;
+  text-decoration: none; 
+  list-style: none;
+  padding: 8px;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 350px;
+  padding: 15px;
+}
+
+code {
+  background-color: #f5f5f0;
+  color: red !important;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  #navbar {
+    background-color: #f5f5f0;
+    font-size: 0.8em;
+    min-width: 200px;
+  }
+}
